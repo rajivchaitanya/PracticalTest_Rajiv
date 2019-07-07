@@ -12,7 +12,7 @@ public class PageModel extends PageClasses {
 
     public static WebDriver driver;
         public void openwebdriver(String url) {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ajita.k\\Downloads\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Rajiv\\Downloads\\chromedriver_win32\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get(url);
         return;
